@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/redNew"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="FORMULARIO"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre" />
+
+        <EditText
+            android:id="@+id/editTextApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellidos" />
+
+        <EditText
+            android:id="@+id/editTextNroControl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nro. de control" />
+
+        <EditText
+            android:id="@+id/editTextSemestre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Semestre" />
+
+        <EditText
+            android:id="@+id/editTextFechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de nacimiento" />
+
+        <EditText
+            android:id="@+id/editTextEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Edad" />
+
+        <EditText
+            android:id="@+id/editTextCarrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Carrera" />
+
+        <EditText
+            android:id="@+id/editTextCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo" />
+
+        <EditText
+            android:id="@+id/editTextTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono" />
+
+        <EditText
+            android:id="@+id/editTextSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sexo" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+    </LinearLayout>
+</ScrollView>
